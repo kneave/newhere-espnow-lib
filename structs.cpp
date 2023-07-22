@@ -20,5 +20,5 @@ typedef struct Position_Msg
     float alt;      // meters
     float acc;      // horizontal accuracy in millimeters
     int   rtk;      // 0: no RTK solution, 1: float solution, 2: fixed solution
-    long  gpstime;  // GPS time, referencing GPS epoch
+    long  unixtime; // time, referencing Unix epoch rather than GPS
 } Position_Msg;

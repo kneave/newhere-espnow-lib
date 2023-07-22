@@ -2,8 +2,8 @@ typedef struct Joystick_Msg
 {
     float x;
     float y;
-    int a;
-    int b;
+    int c;
+    int z;
     long timestamp;
 } Joystick_Msg;
 

@@ -15,9 +15,10 @@ typedef struct Power_Msg
  
 typedef struct Position_Msg
 {
-    float lat; // decimal 
-    float lon; // decimal
-    float alt; // meters
-    float acc; // horizontal accuracy in millimeters
-    int   rtk; // 0: no RTK solution, 1: float solution, 2: fixed solution
+    float lat;      // decimal 
+    float lon;      // decimal
+    float alt;      // meters
+    float acc;      // horizontal accuracy in millimeters
+    int   rtk;      // 0: no RTK solution, 1: float solution, 2: fixed solution
+    long  gpstime;  // GPS time, referencing GPS epoch
 } Position_Msg;

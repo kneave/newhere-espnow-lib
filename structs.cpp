@@ -1,23 +1,23 @@
-typedef struct joystick_msg
+typedef struct Joystick_Msg
 {
     float x;
     float y;
     int a;
     int b;
     long timestamp;
-} joystick_msg;
+} Joystick_Msg;
 
-typedef struct power_msg
+typedef struct Power_Msg
 {
     float voltage;
     float current;
-} power_msg;
+} Power_Msg;
  
-typedef struct position_msg
+typedef struct Position_Msg
 {
     float lat; // decimal 
     float lon; // decimal
     float alt; // meters
     float acc; // horizontal accuracy in millimeters
     int   rtk; // 0: no RTK solution, 1: float solution, 2: fixed solution
-} position_msg;
+} Position_Msg;

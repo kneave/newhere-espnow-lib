@@ -1,0 +1,29 @@
+#######################################
+# Syntax Coloring Map For newhere-espnow-lib
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+Joystick_Msg	KEYWORD1
+Power_Msg	KEYWORD1
+Position_Msg	KEYWORD1
+SerialFrameHeader	KEYWORD1
+SerialFrameReceiver	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+sendSerialFrame	KEYWORD2
+feed	KEYWORD2
+payload	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+SERIAL_FRAME_SYNC	LITERAL1
+SERIAL_FRAME_SYNC_HI	LITERAL1
+SERIAL_FRAME_SYNC_LO	LITERAL1

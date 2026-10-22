@@ -1,0 +1,21 @@
+{
+    "name": "newhere-espnow-lib",
+    "version": "1.0.0",
+    "description": "Shared message structs (Joystick, Power, Position) and a framed-UART transport for the NewHere beacon ESP-NOW link. Wire-format compatible between ESP32 and Teensy 4.1.",
+    "keywords": "esp-now, uart, framing, joystick, gps, telemetry, esp32, teensy",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/kneave/newhere-espnow-lib"
+    },
+    "authors": [
+        {
+            "name": "kneave",
+            "url": "https://github.com/kneave",
+            "maintainer": true
+        }
+    ],
+    "license": "MIT",
+    "frameworks": "arduino",
+    "platforms": ["espressif32", "teensy"],
+    "headers": "newhere-espnow-lib.h"
+}
